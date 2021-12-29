@@ -1,0 +1,35 @@
+[
+    {
+        "productID" : "KL2432",
+        "productName" : "111- Hugo Boss men’s suit",
+        "productPrice" :  2500, 
+        "productPriceFormatted" : "DKK 2.500,00", 
+        "inStock" : true, 
+        "relatedProducts": [
+            {"productID": "KL2532"},
+            {"productID": "KL2341"}
+        ]
+    },
+    {
+        "productID" : "KL2433",
+        "productName" : "222- Hugo Boss men’s suit",
+        "productPrice" :  2600, 
+        "productPriceFormatted" : "DKK 2.500,00", 
+        "inStock" : true, 
+        "relatedProducts": [
+            {"productID": "KL2535"},
+            {"productID": "KL2346"}
+        ]
+    },
+    {
+        "productID" : "KL2434",
+        "productName" : "333- Hugo Boss men’s suit",
+        "productPrice" :  2700, 
+        "productPriceFormatted" : "DKK 2.500,00", 
+        "inStock" : true, 
+        "relatedProducts": [
+            {"productID": "KL2538"},
+            {"productID": "KL2349"}
+        ]
+    }
+]

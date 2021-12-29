@@ -1,0 +1,12 @@
+<p>product-list works!</p>
+
+<div class="d-flex" style="flex-wrap: wrap;width: 100%">
+<ng-container *ngFor="let item of productList; let i=index;">
+    <app-product-detail [item]="item"></app-product-detail>
+</ng-container>
+
+<!-- <ng-container *ngFor="let item of productList; let i=index;">
+    <a [routerLink]="['/products', item.id]" >{{ item.title }}</a>
+</ng-container> -->
+
+</div>
